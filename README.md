@@ -6,5 +6,5 @@
 
 ### **Muscle Groups Section**
 
-### **#Interaction**
+### **Interaction**
 [https://www.youtube.com/shorts/y_CcvAzhtoA](https://www.youtube.com/shorts/y_CcvAzhtoA)
