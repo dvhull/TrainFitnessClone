@@ -78,10 +78,10 @@ struct ConcentricCirclesWithLines: View {
     var body: some View {
         GeometryReader { geom in
             let center = CGPoint(x: geom.size.width / 2, y: geom.size.height / 2)
-            let outerRadius = min(geom.size.width, geom.size.height) / 2 // Ensure it fits within the view
-            let spacing = outerRadius / 4 // Equal spacing for 4 circles
-            let labels = ["0", "0", "0", "0", "0", "0"] // Values for the circle
-            let titles = ["Core", "Arms", "Chest", "Legs", "Back", "Shoulders"] // Titles for the circle
+            let outerRadius = min(geom.size.width, geom.size.height) / 2
+            let spacing = outerRadius / 4
+            let labels = ["0", "0", "0", "0", "0", "0"]
+            let titles = ["Core", "Arms", "Chest", "Legs", "Back", "Shoulders"] 
 
             ZStack {
                 // Draw radiating lines
