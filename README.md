@@ -1,4 +1,4 @@
-<h3>Train Fitness Clone</h3>
+<h2>Train Fitness Clone</h2>
 <p>Simple clone of the empty state for Trends Page in the Train Fitness app</p>
 
 <div style="display: flex; justify-content: center; gap: 20px; margin-bottom: 20px;">
