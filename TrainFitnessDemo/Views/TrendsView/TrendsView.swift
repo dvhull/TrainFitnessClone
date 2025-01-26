@@ -9,7 +9,27 @@ import SwiftUI
 
 struct TrendsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            ScrollView(showsIndicators: false) {
+                ProgressSectionView()
+                    .padding(.bottom)
+                StatsSectionView()
+                    .padding(.bottom)
+                MusclesSectionView()
+                    .padding(.bottom)
+            }
+            .navigationTitle("Trends")
+            .background(Color.background)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        // Dummy button does nothing.
+                    } label: {
+                        Image(systemName: "square.and.arrow.up")
+                    }
+                }
+            }
+        }
     }
 }
 

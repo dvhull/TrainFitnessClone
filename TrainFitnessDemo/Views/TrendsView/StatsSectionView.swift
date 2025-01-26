@@ -13,8 +13,7 @@ struct StatsSectionView: View {
             HeaderView(title: "Stats")
             StatsSectionEmptyState()
         }
-        .padding(.horizontal)
-        .padding(.top)
+        .padding([.top, .horizontal])
     }
 }
 

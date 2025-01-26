@@ -16,8 +16,7 @@ struct MusclesSectionView: View {
             HeaderView(title: "Muscle Groups")
             MusclesSectionEmptyState(metric: $metric)
         }
-        .padding(.horizontal)
-        .padding(.vertical)
+        .padding([.top, .horizontal])
         .padding(.bottom, 30)
     }
 }
