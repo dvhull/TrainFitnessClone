@@ -8,6 +8,7 @@
 import SwiftUI
 import Charts
 
+// TODO: Rename this. 
 enum ProgressSection {
     case time
     case volume
