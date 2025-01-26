@@ -65,7 +65,7 @@ private struct GraphHeader: View {
                 Text("0 ")
                     .font(.system(.title2, design: .rounded))
                     .bold()
-                // TODO: this should animate and change when on selection is changed.
+                // TODO: this should animate and change when selection is changed.
                 + Text("hr")
                     .fontWeight(.semibold)
                     .foregroundColor(Color.gold)
