@@ -1,6 +1,6 @@
-**Clone of the empty state for Trends Page in the Train Fitness app**
+Clone of the empty state for Trends Page in the Train Fitness app
 
-**Graph Section**
+**Progress Section**
 
 **Stats Section**
 
