@@ -34,6 +34,7 @@ struct ProgressSectionView: View {
     }
 }
 
+// TODO: Inconsistent naming conventions. 
 struct ProgressSectionEmptyState: View {
     @Binding var selection: ProgressSection
     var body: some View {
